@@ -397,6 +397,28 @@ GET /api/search?kw=速度与激情&channels=tgsearchers3,xxx&conc=2&refresh=true
 }
 ```
 
+## 🎮 附赠小游戏：终端版贪吃蛇
+
+想在终端里放松一下？仓库自带了一个简易的贪吃蛇小游戏，支持方向键/WASD、空格暂停、`Q` 退出：
+
+**环境要求**：Node.js 18+，一个支持原始键盘输入的交互式终端（如本地 shell、VS Code 内置终端等）。
+
+### 运行步骤
+
+方法一（推荐，进入子目录后运行）：
+1. 进入 TypeScript 子项目：`cd typescript`
+2. 安装依赖（首次运行需要）：`npm install`
+3. 启动游戏：`npm run snake`
+
+方法二（不切换目录，直接在仓库根目录运行）：
+1. 安装依赖：`npm --prefix typescript install`
+2. 启动游戏：`npm --prefix typescript run snake`
+
+### 操作说明
+- 移动：方向键或 `W/A/S/D`
+- 暂停/继续：空格
+- 退出：`Q`（或 `Ctrl+C` 强制退出）
+
 ## 📄 许可证
 
 本项目采用 MIT 许可证。详情请见 [LICENSE](LICENSE) 文件。
