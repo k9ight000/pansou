@@ -397,6 +397,16 @@ GET /api/search?kw=速度与激情&channels=tgsearchers3,xxx&conc=2&refresh=true
 }
 ```
 
+## 🎮 附赠小游戏：终端版贪吃蛇
+
+想在终端里放松一下？仓库自带了一个简易的贪吃蛇小游戏：
+
+1. 进入 TypeScript 子项目：`cd typescript`
+2. 安装依赖（首次运行需要）：`npm install`
+3. 启动游戏：`npm run snake`
+
+操作说明：方向键或 `W/A/S/D` 控制移动，空格暂停/继续，`Q` 退出。
+
 ## 📄 许可证
 
 本项目采用 MIT 许可证。详情请见 [LICENSE](LICENSE) 文件。

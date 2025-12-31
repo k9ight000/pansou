@@ -11,6 +11,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
+    "snake": "ts-node src/games/snake.ts",
     "prepare": "npm run build",
     "test": "jest",
     "lint": "eslint src --ext .ts",
